@@ -26,7 +26,6 @@ class Ui_Form(object):
         self.pushButton = QtWidgets.QPushButton(Form)
         self.pushButton.setGeometry(QtCore.QRect(140, 140, 93, 28))
         self.pushButton.setObjectName("pushButton")
-
         self.retranslateUi(Form)
         self.pushButton.clicked.connect(Form.showMinimized)
         self.pushButton.clicked.connect(line1.line_draw)
@@ -43,6 +42,8 @@ ui1=Ui_Form()
 ui1.setupUi(widge_3)
 widge_3.show()
 sys.exit(app1.exec())
+
+
 
 
 

@@ -7,7 +7,7 @@ def cad_run():
     doc1=wincad.ActiveDocument
     mp1=doc1.ModelSpace
 
-
+#以下为cad接口要求的python数据类型转换函数：
 def vtPnt(x,y,z=0):
     return win32com.client.VARIANT(pythoncom.VT_ARRAY|pythoncom.VT_R8,(x,y,z))
 def vtObject(obj):
